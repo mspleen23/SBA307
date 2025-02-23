@@ -1,0 +1,79 @@
+.carousel{
+    margin-top: 70px;   
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.carousel {
+    animation: fadeIn 3s ease-in-out;
+}
+
+.intro{
+margin-top: 150px;
+}
+
+.col h1 {
+    font-size: 35px;
+    font-family: sans-serif;   
+}
+.col p{
+font-size: 15px;
+font-family: sans-serif;
+}
+
+.col2{
+    gap: -10px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.teach {
+    margin-top: 150px;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 25px;
+}
+
+.cards{
+    margin-top: -10px;
+}
+
+.card:hover {
+    transform: scale(1.05);  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.partners{
+    margin-top: 100px;
+}
+
+.signUp{
+    margin-top: 100px;
+    padding-bottom: 50px;  
+}
+
+.joinUs{
+    margin-top: 100px;
+    padding-bottom: 50px;  
+}
+
+.socials{
+    margin-top: 100px; 
+
+}
+
+
+body {
+    background: linear-gradient(to right, #98fb98, skyblue); 
+}
+  
+
+
